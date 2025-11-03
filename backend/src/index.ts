@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 mongoose
-  .connect("mongodb+srv://project8abdulhakim_db_user:mNOdW9YgpVObFjTG@cluster0.fcfihkg.mongodb.net/search?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("mongodb+srv://")
   .then(() => console.log("Connected"))
   .catch((err) => console.log("Can not connected!", err));
 
