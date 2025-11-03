@@ -1,0 +1,25 @@
+{
+  "name": "thmanyah-backend",
+  "version": "1.0.0",
+  "description": "Thmanyah podcast search backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/cors": "^2.8.19",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  }
+}
